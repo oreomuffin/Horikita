@@ -82,17 +82,17 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✨ sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴛᴜʀʙᴏ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ - ᴍᴜsɪᴄ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ᴅᴀɴ ᴊᴀᴅɪᴋᴀɴ sᴀʏᴀ ᴀᴅᴍɪɴ ᴅᴀɴ ʙᴇʀɪ ɪᴢɪɴ ᴍᴀɴᴀɢᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ [✨](https://telegra.ph/file/9c2edb0214467c399a18f.jpg)
+✨ sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴠɪʀᴛᴜᴀʟ ᴍᴜsɪᴄ  ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ - ᴍᴜsɪᴄ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ᴅᴀɴ ᴊᴀᴅɪᴋᴀɴ sᴀʏᴀ ᴀᴅᴍɪɴ ᴅᴀɴ ʙᴇʀɪ ɪᴢɪɴ ᴍᴀɴᴀɢᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ [✨](https://telegra.ph/file/f8c44e0c75e592ff49137.jpg)
 ───────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ───────────────────────
-➛ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ /help ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ғɪᴛᴜʀ ᴍᴇɴᴀʀɪᴋ ᴅᴀʀɪ ʙᴏᴛ ᴛᴜʀʙᴏ. 
+➛ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ /help ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ғɪᴛᴜʀ ᴍᴇɴᴀʀɪᴋ ᴅᴀʀɪ ʙᴏᴛ ᴠɪʀᴛᴜᴀʟ ᴍᴜsɪᴄ. 
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Turbo Robot", callback_data="emiko_"),
+        InlineKeyboardButton(text="About Virtual Music", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Turbo To Your Group ➗", url="t.me/Gipturbobot?startgroup=new"),
+            text="➗ Add Turbo To Your Group ➗", url="t.me/Virtualexmusicbot?startgroup=new"),
     ],
 ]
 
@@ -110,10 +110,10 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/9c2edb0214467c399a18f.jpg"
+EMI_IMG = "https://telegra.ph/file/f8c44e0c75e592ff49137.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @excrybaby \
+ You can support the project by contacting @Biarenakliatnyaaaa \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -441,8 +441,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/TurboGroupSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/TurboMusicChnl"),
+                    InlineKeyboardButton(text="Support", url="t.me/Virtualllnihsad"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/bombleebas"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -789,7 +789,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Bot Turbo Sudah Aktif..!**
+                f"""**Bot Virtual Sudah Aktif..!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
