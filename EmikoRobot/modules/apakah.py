@@ -2,17 +2,17 @@ import random
 from EmikoRobot.events import register
 from EmikoRobot import telethn
 
-APAKAH_STRING = ["Iya", 
+APAKAH_STRING = ["Iyaa sayang", 
                  "Tidak", 
                  "Mungkin", 
-                 "Mungkin Tidak", 
+                 "Mana saya tau", 
                  "Bisa jadi", 
                  "Mungkin Tidak",
-                 "Tidak Mungkin",
-                 "YNTKTS",
-                 "Pala bapak kau pecah",
-                 "Apa iya?",
-                 "Tanya aja sama mamak kau tu pler"
+                 "Iyaa",
+                 "Iyain aja dah biar cepet",
+                 "Jangan tanya saya, saya kan bot",
+                 "Apa, ulang?",
+                 "Gatau mau jawab apa"
                  ]
 
 
