@@ -381,7 +381,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Tukang Ngambek", url="https://t.me/itsmeefey"),
+                    InlineKeyboardButton(text="Pacar", url="https://t.me/pandakong888"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -435,12 +435,12 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_support":
         query.message.edit_text(
             text="*๏ Horikita support chats*"
-            "\nJoin My Support Group Public/Channel for see or report a problem on Horikita.",
+            "\nJoin My Support channel/Channel for see or report a problem on Horikita.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/familyaromohola"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/xd19fja"),
                     InlineKeyboardButton(text="Updates", url="https://t.me/suzhorikitasupport"),
                  ],
                  [
@@ -459,6 +459,7 @@ def emiko_about_callback(update, context):
                  [
                   [
                       InlineKeyboardButton(text="Jer", url="https://t.me/oreomuffinn).
+                  
                   ]
                  ],                        
 
