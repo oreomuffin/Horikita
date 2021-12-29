@@ -82,10 +82,9 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-➛ I'm a anime theme management bot [🌺](https://telegra.ph/file/398d9c70e8fd07be67714.jpg)
 ───────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
+➛ I'm a anime theme management bot [🌺](https://telegra.ph/file/398d9c70e8fd07be67714.jpg)
+
 ───────────────────────
 ➛ Click /help to see available commands. 
 """
