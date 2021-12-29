@@ -381,7 +381,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Pacar", url="https://t.me/pandakong888"),
+                    InlineKeyboardButton(text="Pacar", url="https://t.me/serahluanjj"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -456,15 +456,15 @@ def emiko_about_callback(update, context):
         query.message.edit_text(
             text=f"๏ Credis for Horikita\n"
             "\nHere Developers Making The Horikita Robot"
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"                    
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"    
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"
+            "\n\n[Jer](https://github.com/oreomuffin)"                    
+            "\n\n[Cesaa](https://github.com/putra)"
+            "\n\n[Cicibeby](https://github.com/cicibeby)"
+            "\n\n[Pandakong](https://github.com/pandakong)"
+            "\n\n[Xinchan](https://github.com/xinchan)"
+            "\n\n[userbotmaps](https://github.com/userbotmaps)"    
+            "\n\n[Lalalisa](https://github.com/lalalisa)"
+            "\n\n[Jennie](https://github.com/jennie)"
+            "\n\n[Jodohjer](https://github.com/jodohjer)",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
