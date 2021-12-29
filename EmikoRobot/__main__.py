@@ -456,16 +456,19 @@ def emiko_about_callback(update, context):
         query.message.edit_text(
             text=f"๏ Credis for Horikita\n"
             "\nHere Developers Making The Horikita Robot"
-            "\n\n[sena-ex](https://github.com/kennedy-ex)"
-            "\n[TheHamkerCat](https://github.com/thehamkercat)"
-            "\n[Feri](https://github.com/feriexp)"
-            "\n[riz-ex](https://github.com/riz-ex)"
-            "\n[Inuka Asith](https://github.com/inukaasith)"
-            "\n[QueenArzo](https://github.com/queenarzoo)"  
-            "\n[kittu](https://github.com/noob-kittu)"
-            "\n[Paul-Larsen](https://github.com/paulsonoflars)"
-            "\n[Kaizoku](https://github.com/animekaizoku)"
-            "\n[TheGhostHunter](https://github.com/huntingbots)",
+                 [
+                  [
+                      InlineKeyboardButton(text="Jer", url="https://t.me/oreomuffinn).
+                  ]
+                 ],                        
+
+
+
+
+
+
+
+
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
