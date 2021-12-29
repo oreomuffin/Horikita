@@ -381,7 +381,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Pacar", url="https://t.me/serahluanjj"),
+                    InlineKeyboardButton(text="Teman Baik", url="https://t.me/serahluanjj"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
